@@ -1,2 +1,10 @@
 -> "Categorical Variables/Features" : It can contain a limited and fixed number of categories or labels.
   ex: color variable with values red, blue, and green
+
+-> It have two types:
+  1) Ordinal Categorical Variable : Ordinal variables have clear, natural, and intrinsic ordering to their categories.
+  ex: economic status (low income, middle income, high income), 
+      educational experience (high school, bachelor's, master’s)
+  2) Nominal Categorical Variable : Categories in nominal variables have no relationship with each other.
+  ex: age (male, female, transgender)
+      colors (blue, red, green, yellow)
