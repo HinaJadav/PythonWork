@@ -10,4 +10,14 @@
       colors (blue, red, green, yellow)
 -> Limitation:
   1) It is not feasible in training and fitting Machine Learning algorithms.
+
+-> "One Hot Encoding": One Hot Encoding can be defined as a process of transforming categorical variables into numerical format before fitting and training a Machine Learning algorithm.
+-> Idea: For each categorical variable, One Hot Encoding produces a numeric vector with a length equal to the number of categories present in the feature. If a data point belongs to the ith category, 
+         then all values in the resulting vector would be 0 except for the ith value, which will be 1.
+-> ex: a categorical feature color, as mentioned in the below diagram, and it consists of 3 categories Red, Green, and Yellow. For each data point, One Hot Encoding will produce a numeric vector of length 3 and 
+       its ith value will be 1 representing ith category in the value set - (Red, Green, Yellow). For example, if the data point belongs to Red color, then One Hot Encoded vector would be [1,0,0] and 
+       it will be [0,1,0] and [0,0,1] if the data point belongs to Green or Yellow color respectively. The resulting vector can also be converted into multiple columns in the data frame, as shown on the right side of the below diagram.
+
+-> Issues: One Hot Encoding process will create new columns/attributes according to the number of categories present in the dataset. 
+           These attributes are called Dummy Variables, which are used as a proxy for categorical variables in ML models. 
   
